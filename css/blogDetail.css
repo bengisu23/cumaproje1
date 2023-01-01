@@ -1,0 +1,51 @@
+main{
+    background-color: pink ;
+}
+
+.blogDetailMainContainer{
+    width: 100%;
+    min-height: calc(100vh - 75px);
+}
+.blogDetailImgContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.blogDetailImgContainer img{
+    width: 50%;
+    border-radius: 10px;
+}
+.blogDetailTitle{
+    text-align: center;
+}
+
+.blogContentContainer{
+    padding: 30px 100px;
+}
+
+.blogContentContainer p{
+    padding: 10px 0px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.authorInfoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 20px 0;
+}
+@media screen and (min-width:1100px) {
+    .blogDetailImgContainer img{
+        width: 30%;
+    }
+}
+@media screen and (max-width:500px) {
+    .blogDetailImgContainer{
+        padding: 15px;
+    }
+    .blogDetailImgContainer img{
+        width: 70%;
+    }
+}
+    
